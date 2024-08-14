@@ -1,0 +1,79 @@
+.main {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.50) 17%, rgba(0, 0, 0, 0.00) 30%), url(../../image/main/main.jpg), lightgray 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-link{
+    display: none;
+}
+
+.main .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main__block {
+    height: 71px;
+}
+
+.main__text {
+    font-size: 53px;
+    line-height: 66px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    align-self: flex-end;
+
+}
+
+.main__name {
+    text-align: center;
+    font-family: 'Harry Potter (Russian Version of Gfdtk)';
+    font-weight: 400;
+    font-size: 240px;
+    line-height: 276px;
+    background: linear-gradient(100.69deg, #F7CC02 0%, #FEA717 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-top: 106px;
+}
+
+.main__arrow{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.main__arrow-img {
+    display: block;
+}
+
+@media screen and (max-width: 780px) {
+    .main__text {
+        font-size: 28px;
+        line-height: normal;
+    }
+
+    .main__block {
+        height: 40px;
+    }
+
+    .main__name {
+        padding-top: 0px;
+        font-size: 125px;
+    }
+
+    .main__arrow {
+        margin-bottom: 85px;
+    }
+}

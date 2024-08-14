@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Harry Potter (Russian Version of Gfdtk)';
+    src: url(../../Fonts/harrypotterrussianversionofgfdtk.ttf);
+
+}
+
+@font-face {
+    font-family: 'Amapola-Modern';
+    src: url(../../Fonts/Amapola-Modern.ttf);
+}
+
+.appellation {
+    font-size: 20px;
+    font-weight: 700;
+    color: #47297B;
+}
+
+.title {
+    font-family: 'Amapola-Modern';
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 78px;
+    text-align: center;
+    background: linear-gradient(90deg, #F7CC02 0%, #FEA717 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 780px) {
+    .appellation {
+        font-size: 19px;
+        padding: 15px 0;
+    }
+
+    body {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .title {
+        font-size: 28px;
+        line-height: normal;
+        padding-bottom: 35px;
+    }
+}
+
+.pulse {
+    transition: transform 0.5s ease;
+    animation: pulse 2s infinite ease-in-out;
+}
+
+.pulse:hover {
+  animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

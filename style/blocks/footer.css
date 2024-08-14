@@ -1,0 +1,19 @@
+.footer {
+    background-color: rgba(71, 41, 123, 1);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.footer__text {
+    color: #FFF;
+}
+
+@media screen and (max-width: 780px) {
+    .footer {
+        margin-top: 0;
+    }
+}

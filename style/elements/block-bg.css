@@ -1,0 +1,13 @@
+.block-bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 85px 0 75px;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 780px) {
+    .block-bg {
+        padding: 70px 0 40px;
+    }
+}
